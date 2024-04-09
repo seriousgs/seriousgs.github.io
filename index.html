@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeriousGames</title>
+    <style>
+html, body {
+    height: 100%;
+}
+.logo {
+padding-top: 5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Градиентный фон */
+    display: flex;
+    flex-direction: column;
+}
+header {
+background: rgb(255,131,35);
+background: linear-gradient(90deg, rgba(255,131,35,1) 0%, rgba(255,89,3,1) 100%);
+    padding: 5px;
+    display: flex; /* Добавляем flex-контейнер */
+    font-color: white;
+}
+h1 {
+    margin-left: 10px; /* Добавляем небольшое расстояние между изображением и текстом */
+    color: #fff; /* Новый цвет текста */
+}
+main {
+    flex-grow: 1; /* Основное содержимое занимает все доступное пространство */
+    padding: 20px;
+}
+
+footer {
+    background-color: #333; /* Цвет фона для подвала */
+    color: #fff;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <!-- Логотип и название -->
+    <img src="logo.png" alt="SeriousGames" width="61" height="64" class="logo"> <!-- Укажите путь к вашему логотипу и его размер -->
+    <h1>SeriousGames</h1>
+</header>
+
+<main>
+    <!-- Основная картинка и текст -->
+    <img src="promo/mrdude1.png" alt="Mr. Dude: King of the Hill"> <!-- Укажите путь к вашей основной картинке и ее размер -->
+    <p>Mr. Dude: King of the Hill</p>
+    <a href="https://play.google.com/store/apps/details?id=com.SeriousGames.MrDudeBattle">Google Play</a> <!-- Укажите вашу ссылку -->
+</main>
+
+<footer>
+    <!-- Футер -->
+    &copy; 2024 SeriousGames
+</footer>
+
+</body>
+</html>
