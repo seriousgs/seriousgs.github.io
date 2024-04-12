@@ -534,3 +534,4 @@ opera.com,pub9443931419968, RESELLER, 55a0c5fd61378de3
 improvedigital.com, 2320, RESELLER
 rubiconproject.com, 26440, DIRECT, 0bfd66d529a55807
 rubiconproject.com, 26442, DIRECT, 0bfd66d529a55807
+google.com, pub-4546959981515103, DIRECT, f08c47fec0942fa0
